@@ -1,0 +1,8 @@
+services:
+  simpus-app:
+    build: .
+    image: simpus:1.0.0
+    stdin_open: true
+    tty: true
+    volumes:
+      - ./data:/app/data
